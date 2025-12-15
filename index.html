@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Music DAO - 관통사</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Pretendard', sans-serif;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            text-align: center;
+            width: 320px;
+            border: 1px solid #333;
+        }
+        /* 사진 꾸미기 스타일 */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* 완전 동그랗게 */
+            object-fit: cover;
+            border: 4px solid #4568dc; /* 파란색 테두리 */
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(69, 104, 220, 0.3);
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            font-weight: 700;
+        }
+        .tag {
+            color: #4568dc;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        p {
+            color: #888;
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .btn {
+            display: block;
+            padding: 14px;
+            background: #2a2a2a;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 500;
+            transition: 0.2s;
+            border: 1px solid #333;
+        }
+        .btn:hover {
+            background: #4568dc;
+            border-color: #4568dc;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="me.jpg" alt="프로필 사진" class="profile-img">
+        
+        <div class="tag">Tourist Guide & Flutist</div>
+        <h1>관통사님의 DAO</h1>
+        <p>음악과 여행이 공존하는 공간.<br>새로운 커뮤니티 실험을 시작합니다.</p>
+        
+        <div class="btn-group">
+            <a href="#" class="btn">🎵 연주 영상 보기</a>
+            <a href="#" class="btn">✈️ 투어 프로그램 안내</a>
+            <a href="#" class="btn">💬 1:1 문의하기</a>
+        </div>
+    </div>
+
+</body>
+</html>
